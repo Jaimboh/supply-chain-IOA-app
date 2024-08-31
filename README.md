@@ -51,10 +51,14 @@ This page allows the user to model the total effect of a change in final use on 
 ## Data
 The application uses CSV files located in the data directory. The files include:
 
-combined_pi.csv: Data on the input requirements of products.
-combined.csv: Data on the inputs into the production process.
-detailed_effects.csv: Data on the effects of changes in final use on the economy.
-Contributing
+1. combined_pi.csv: Data on the input requirements of products.
+
+2. combined.csv: Data on the inputs into the production process.
+
+3. detailed_effects.csv: Data on the effects of changes in final use on the economy.
+
+   
+## Contributing
 Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
 
 ### License
