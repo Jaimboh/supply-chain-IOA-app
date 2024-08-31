@@ -53,6 +53,6 @@ combined.csv: Data on the inputs into the production process.
 detailed_effects.csv: Data on the effects of changes in final use on the economy.
 Contributing
 Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
-
-License
+```
+### License
 This project is licensed under the MIT License. See the LICENSE file for details.
