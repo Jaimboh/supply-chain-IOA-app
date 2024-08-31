@@ -25,17 +25,20 @@ To run this application, you need to have Python and Streamlit installed. You ca
 
 ```sh
 pip install streamlit pandas plotly
-Usage
+```
+## Usage
 Clone the repository:
-
+```
 git clone https://github.com/your-username/supply-chain-IOA-app.git
 cd supply-chain-IOA-app
+```
 Run the Streamlit application:
-
+```
 streamlit run your_script_name.py
+```
 Replace your_script_name.py with the name of the Python script containing the Streamlit code.
 
-Pages
+## Pages
 1. Industry Use of Products
 This page presents information on the extent to which different industries in the economy use specific goods and services in their production processes. Users can select a product and view data in either values (£m) or as proportions of total intermediate consumption needed to produce the product.
 
@@ -45,7 +48,7 @@ This page examines what products (goods and services) need to be used in order t
 3. Effects of a Change in Final Use
 This page allows the user to model the total effect of a change in final use on the economy. The effects published by ONS are sometimes referred to as Type 1. They include the impact on production of a change in final use (direct impact) and the supply chain impacts stemming from the initial change in final use (indirect impact).
 
-Data
+## Data
 The application uses CSV files located in the data directory. The files include:
 
 combined_pi.csv: Data on the input requirements of products.
@@ -53,6 +56,6 @@ combined.csv: Data on the inputs into the production process.
 detailed_effects.csv: Data on the effects of changes in final use on the economy.
 Contributing
 Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
-```
+
 ### License
 This project is licensed under the MIT License. See the LICENSE file for details.
